@@ -1,0 +1,29 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: bg-gradient-to-r from-amber-200 to-rose-200;
+    text-shadow: 0 0 5px rgba(255, 99, 71, 0.75); /* Efecto luminoso */
+}
+
+main{
+    background-color: #f9f9f9;    
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(53, 29, 211);
+    transition: color 0.3s, text-shadow 0.3s;
+}
